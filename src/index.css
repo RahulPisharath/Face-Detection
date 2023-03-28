@@ -47,7 +47,9 @@ button {
 .w-100 {
   width: 100%;
 }
-
+.mb-24{
+  margin-bottom: 24px;
+}
 .inline-flex {
   display: inline-flex;
 }
@@ -57,11 +59,14 @@ button {
   margin-left:10px;
 }
 .butn_wrapper{
-  margin:0px auto;
+  margin:40px auto 0;
   display: inline-flex;
 }
 .space-between {
   justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
 }
 
 button.btn-primary {

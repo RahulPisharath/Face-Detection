@@ -37,19 +37,35 @@
   height: 24px;
   margin: 0 4px 0 0;
 }
-
+.grid_item {
+  width: 150px;
+  height: 150px;
+}
 .face_area {
   margin: 0px auto;
-  width: 400px;
-  height: 400px;
   border-radius: 2px;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  border:1px solid #FFF;
 
 
 }
+.face_area img {
+  width: 100%;
+  height: 100%;
+}
 
-.face_area:after {
+.face_area canvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.face_area video{
+  width: 100%;
+  height: 100%;
+}
+
+.face_area.capture_image:after {
   content: '';
   background: url(../src/assets/icons/full-screen.svg) no-repeat center;
   position: absolute;
@@ -57,4 +73,16 @@
   top: 0px;
   width: 100%;
   height: 100%;
+}
+
+.user_pic {
+  width: 242px;
+  display: inline-block;
+}
+
+.user_pic img {
+  width: 100%;
+}
+.d-flex {
+  display: flex;
 }
